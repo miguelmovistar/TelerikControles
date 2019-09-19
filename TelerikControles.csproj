@@ -505,6 +505,24 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="roslynbin\csc.exe" />
+    <Content Include="roslynbin\csi.exe" />
+    <Content Include="roslynbin\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="roslynbin\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="roslynbin\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="roslynbin\Microsoft.CodeAnalysis.dll" />
+    <Content Include="roslynbin\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="roslynbin\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="roslynbin\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="roslynbin\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="roslynbin\System.AppContext.dll" />
+    <Content Include="roslynbin\System.Collections.Immutable.dll" />
+    <Content Include="roslynbin\System.Diagnostics.StackTrace.dll" />
+    <Content Include="roslynbin\System.IO.FileSystem.dll" />
+    <Content Include="roslynbin\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="roslynbin\System.Reflection.Metadata.dll" />
+    <Content Include="roslynbin\vbc.exe" />
+    <Content Include="roslynbin\VBCSCompiler.exe" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Models\Model1.edmx">
@@ -514,6 +532,14 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="roslynbin\csc.exe.config" />
+    <Content Include="roslynbin\csc.rsp" />
+    <Content Include="roslynbin\csi.rsp" />
+    <Content Include="roslynbin\Microsoft.CSharp.Core.targets" />
+    <Content Include="roslynbin\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="roslynbin\vbc.exe.config" />
+    <Content Include="roslynbin\vbc.rsp" />
+    <Content Include="roslynbin\VBCSCompiler.exe.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
