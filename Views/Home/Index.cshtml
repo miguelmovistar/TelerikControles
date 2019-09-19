@@ -1,0 +1,26 @@
+﻿@(Html.Kendo().Grid<TelerikControles.Models.CreditCard>()
+        .Name("grid")
+        .Columns(columns =>
+        {
+            columns.Bound(c => c.CreditCardID);
+            columns.Bound(c => c.CardNumber);
+            columns.Bound(c => c.CardType);
+        })
+        .HtmlAttributes(new { style = "height: 550px;" })
+        .Scrollable()
+        .Groupable()
+        .Sortable()
+        .Pageable(pageable => pageable
+            .Refresh(true)
+            .PageSizes(true)
+            .ButtonCount(5))
+        .Filterable() 
+        .DataSource(dataSource => dataSource
+            .Ajax()
+            .Read(read => read.Action("GetCreditCard", "Home"))
+            .PageSize(20)
+            .Model(model => model.Id(p => p.CreditCardID))
+            
+        )
+)
+
